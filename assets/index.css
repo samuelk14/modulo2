@@ -1,0 +1,32 @@
+main{
+    width: 360px;
+    height: 800px;
+    background: linear-gradient(25deg, #62DD67 50%, #17391A 50%);
+    margin: auto;
+}
+
+h1{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 30px;
+    padding-top: 106px;
+}
+
+h2{
+    font-family: Roboto;
+    font-weight: regular;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+div{
+    background-color: #F8F5F5;
+    width: 300px;
+    height: 300px;
+    border-radius: 32px;
+    margin:auto;
+}
