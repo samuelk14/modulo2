@@ -23,11 +23,38 @@ h2{
     margin-top: 60px;
 }
 
-div{
+.contenedor-form{
     background-color: #F8F5F5;
     width: 300px;
     height: 300px;
     border-radius: 32px;
     margin:auto;
     margin-top: 55px;
+}
+
+form{
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+
+label{
+    font-size: 16px;
+}
+
+.contenedor-label{
+    margin: 0;
+}
+
+form a{
+    font-size: 12px;
+    float: right;
+    color: #62DD67;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 5px 0px 10px;
+    border-style:none;
+    padding: 0;
 }
