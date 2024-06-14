@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 main{
     width: 360px;
     height: 800px;
@@ -6,7 +11,7 @@ main{
 }
 
 h1{
-    font-family: Roboto;
+    font-family: Roboto, "Lucida Console";
     font-weight: bold;
     font-size: 24px;
     color: #ffffff;
@@ -15,8 +20,8 @@ h1{
 }
 
 h2{
-    font-family: Roboto;
-    font-weight: regular;
+    font-family: Roboto, "Lucida Console";
+    font-weight: normal;
     font-size: 16px;
     color: #ffffff;
     margin-left: 30px;
@@ -32,29 +37,109 @@ h2{
     margin-top: 55px;
 }
 
+.contenedor-form-registro{
+    background-color: #F8F5F5;
+    width: 300px;
+    height: 480px;
+    border-radius: 32px;
+    margin:auto;
+    margin-top: 55px;
+}
+
 form{
     padding-left: 30px;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-right: 30px;
 }
 
 label{
     font-size: 16px;
+    font-family: Roboto, "Lucida Console";
+    font-weight: normal;
 }
 
 .contenedor-label{
     margin: 0;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contenedor-label label{
+    flex-grow: 2;
 }
 
 form a{
     font-size: 12px;
     float: right;
     color: #62DD67;
+    text-decoration: none;
+    font-family: Roboto, "Lucida Console";
+    font-weight: semi-bold;
 }
 
-input[type=text], input[type=password]{
+form a:hover{
+    color: #7bf37f;
+    font-size:100%;
+}
+
+form a:active{
+    color: #17391A;
+}
+
+input[type=text], input[type=password], input[type=email]{
     width: 100%;
-    margin: 5px 0px 10px;
+    margin: 5px 0px 40px;
     border-style:none;
-    padding: 0;
+    padding: 6px 0px 0px 6px;
+    border: none;
+    border-bottom: 2px solid #B4B2B2;
+    outline: none;
+    background:none;
+}
+
+
+input[type=submit]{
+    background-color: #17391A;
+    color: #ffffff;
+    width: 222px;
+    height: 50px;
+    border-radius: 24px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto, "Lucida Console";
+    font-weight: 600;
+}
+
+input[type=submit]:hover{
+    background-color: #0f2c11;
+}
+
+.foot{
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    display: inline-block;
+    align-items: flex-end;
+    text-align: center;
+}
+
+h4{
+    display: inline;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+    color:#17391A;
+    font-family: Roboto;
+    font-weight: 700px;    
+}
+
+a:hover{
+    font-size:120%;
 }

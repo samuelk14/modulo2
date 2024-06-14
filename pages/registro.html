@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="../assets/index.css">
 </head>
 <body>
     <main>
-        <h1>Bienvenido</h1>
-        <h2>Inicia para acceder a tu cuenta</h2>
-        <div class="contenedor-form">
+        <h1>Registro</h1>
+        <h2>Crear una nueva cuenta</h2>
+        <div class="contenedor-form-registro">
             <form action="">
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
                 <label for="correo">Correo electrónico</label><br>
                 <input type="email" id="correo" name="correo"><br>
-                <div class="contenedor-label">
-                    <label for="pasword">Contraseña</label>
-                    <a href="">Olvidada?</a>
-                </div>
+                <label for="pasword">Contraseña</label>
                 <input type="password" id="pasword" name="pasword">
-                <input type="submit" value="Iniciar sesión">
+                <label for="rpasword">Confirme contraseña</label>
+                <input type="password" id="rpasword" name="rpasword">
+                <input type="submit" value="Registrarse">
             </form>
-        </div>
-        <div class="foot">
-            <h4>No tienes una cuenta?</h4>
-            <a href="">Registrate</a>
         </div>
     </main>    
 </body>
