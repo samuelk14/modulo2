@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 360px;
+    height: 800px;
+    background: #F8F5F5;
+    margin: auto;
+}
+
+header{
+    height: 60px;
+    background-color: #17391A;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+header div{
+    flex-grow: 2;
+    display: flex;
+    align-items: baseline;
+}
+
+.s{    
+    font-family: "Sonsie One", system-ui;
+    color: #FFFFFF;
+    font-size: 44px;
+}
+
+header div h1{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 36px;
+}
+
+header a span{
+    color: #FFFFFF;
+    font-size: 4px;
+}
+
+section{
+    position: relative;
+}
+
+section img{
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+section div {
+    width: 198px;
+    height: 352px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+    opacity: 0.8;
+    position: absolute;    
+    top: 56px;
+    left: 82px;
+}
