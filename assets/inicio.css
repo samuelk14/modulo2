@@ -61,4 +61,31 @@ section div {
     position: absolute;    
     top: 56px;
     left: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section div h2{
+    text-align: center;
+    font-family: Roboto;
+    margin: 30px 20px 20px 20px;
+    font-weight: medium;
+}
+
+section div h3{
+    text-align: center;
+    font-weight: normal;
+    font-family: Roboto;
+    margin: 0px 30px;
+    margin-bottom: 12px;
+}
+
+section div button{
+    border-radius: 8px;
+    background-color:#17391A;
+    color:#FFFFFF;
+    padding: 7px 12px;
+    margin-bottom: 22px;
+    border-style: none;
 }
