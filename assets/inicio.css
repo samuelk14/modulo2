@@ -60,6 +60,7 @@ section img{
     left: 30px;
     top: 312px;
     border-radius: 0px;    
+    opacity: 45%;
 }
 
 section div {
@@ -97,4 +98,23 @@ section div button{
     padding: 7px 12px;
     margin-bottom: 22px;
     border-style: none;
+}
+
+footer div{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    width: 100%;
+}
+
+.sf{    
+    font-family: "Sonsie One", system-ui;
+    color: #17391A;
+    font-size: 44px;
+}
+
+footer div h1{
+    color: #17391A;
+    font-family: Roboto;
+    font-size: 36px;
 }
