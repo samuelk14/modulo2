@@ -58,8 +58,8 @@ section img{
     height: 118px;
     background: #17391A;
     left: 30px;
-    border-radius: 0px;
-    bottom: 0px;
+    top: 312px;
+    border-radius: 0px;    
 }
 
 section div {
