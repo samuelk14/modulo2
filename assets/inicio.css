@@ -1,13 +1,13 @@
 body{
-    width: 360px;
-    height: 800px;
+    width: auto;
+    height: auto;
     box-sizing: border-box;
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 
 main{
-    background: ##f7f7f7;
+    background: #f7f7f7;
 }
 
 header{
@@ -101,7 +101,7 @@ section div button{
 }
 
 footer{
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     background-color: #ffffff;
     box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.2), 0 -1px 5px 0 rgba(0, 0, 0, 0.19);
 }
